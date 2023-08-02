@@ -17,7 +17,7 @@ class App extends Component {
     const {activeTab} = this.state
     return<SidebarContext.Provider value={{activeTab,onChangeSidebar:this.onChangeSidebar}} ><BrowserRouter>
     <Switch>
-      <Route exact path="/login" component={Login}/>
+      <Route exact path="Bank-App/login" component={Login}/>
       <ProctedRout exact path="/" component={Dashboard}/>
       <ProctedRout exact path="/transactions/" component={Transaction}/>
       <ProctedRout exact path="/profile/" component={Profile}/>
