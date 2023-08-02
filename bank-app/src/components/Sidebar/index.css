@@ -1,0 +1,60 @@
+.side-bar{
+    width: 20%;
+    /*border-right: 2px solid #9d8a8aca; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.tabs-img-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+.sidebar-logo{
+    align-self: center;
+    padding:20px;
+    width: 100%;
+}
+
+.tabs{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    align-items: center;
+    border-left:10px solid #fff ;
+    padding: 10px;
+    text-decoration: none;
+    color:#747373;
+    font-weight: 700;
+}
+.tabs-list{
+    list-style-type: none;
+    margin-left: -40px;
+    width: 100%;
+}
+.tab-icon{
+    margin-right:10px;
+}
+.active-tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-left: 10px solid #3c05ef;
+    padding: 10px;
+    text-decoration: none;
+    color:#3c05ef;
+    font-weight: 700;
+    
+}
+.logout-btn{
+    background-color: #fff;
+    margin-bottom: -10px;
+    border: none;
+    border-top: 1px solid #dcd2d2;
+}

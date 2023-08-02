@@ -1,0 +1,44 @@
+.dp-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    width: 100%;
+}
+.details-dtls-con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.details-car{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+}
+.bars{
+    width: 90%;
+    padding: 5px 5px;
+    border:1px solid #c8ccd2;
+    color: #a9bcd9;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.p-pic{
+    background-color: blue;
+    margin:20px;
+    color: #fff;
+    padding:10px 10px;
+    border-radius:50%;
+}
+.loder-con{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

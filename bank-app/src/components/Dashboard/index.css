@@ -1,0 +1,75 @@
+.dashboard-con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: #fff;
+}
+.home-nav-body{
+    width:100%;
+    background-color: #e7e7f1;
+}
+.home-body{
+    height: 88vh;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.debit-credit-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.debit-credit-cards{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+.credit{
+    color:rgb(7, 251, 109);
+}
+.debit{
+    color: #e26c0c;
+}
+.lst-trs-p{
+    font-weight: 700;
+    font-size: 24px;
+    color:#6d6d6d
+}
+.lst-tr-table{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding:10px;
+}
+.debit-color{
+    color:#e26c0c;
+}
+.credit-color{
+    color:rgb(7, 251, 109);
+}
+.add-btn{
+    background-color: #0a32f9;
+    padding:5px 10px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 20px;
+
+}
+.tool-btn{
+    border: none;
+    background-color:transparent;
+}

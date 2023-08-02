@@ -1,0 +1,58 @@
+.transaction-con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Nav-Tr-tab-con{
+    background-color: #fff;
+}
+.Tr-Nav-Tab-con{
+    width: 100%;
+    background-color: #fff;
+}
+.Tr-nav-ul-con{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -20px;
+    
+}
+.Tr-Tab-itrm{
+    margin-right: 40px;
+    padding: 10px 0px;
+}
+.active-tr-btn{
+    background-color: transparent;
+    border:none;
+    color: #0723f9;
+    border-bottom: 4px solid #0723f9;
+    font-weight: 600;
+}
+.tr-tb-btn{
+    background-color: #fff;
+    border:none;
+    color:rgb(48, 48, 45);
+    font-weight: 600;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding:20px 0px;
+}
+th,td{
+    border-bottom: 1px solid #c3c1c1;
+    padding: 10px 20px;
+    text-align: start;
+}
+.tr-nam-td{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.tr-name{
+    margin-left: 10px;
+}

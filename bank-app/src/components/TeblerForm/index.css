@@ -1,0 +1,23 @@
+.dlt-popup-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.dlt-popup-body-text{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.Yess-dlt{
+    background-color: red;
+    border:none;
+    padding:10px 20px;
+    color: #fff;
+    margin-right: 20px;
+    border-radius:20px;
+}
+.no-dlt{
+    padding:10px 20px;
+    border-radius:20px;
+    background-color: transparent;
+    border:1px solid #b8b4b4;
+}
